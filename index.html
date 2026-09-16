@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>好きカノ｜福岡のレンタル彼女キャスト募集</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic",
+    Meiryo,
+    sans-serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255,255,255,0.95);
+  border-bottom: 1px solid #eee;
+  backdrop-filter: blur(10px);
+}
+
+.header-inner {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo span {
+  font-size: 12px;
+  display: block;
+  color: #999;
+  letter-spacing: 1px;
+}
+
+.header-button {
+  padding: 9px 18px;
+  border-radius: 30px;
+  background: #222;
+  color: white;
+  font-size: 13px;
+}
+
+/* メイン */
+.hero {
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background:
+    radial-gradient(circle at 20% 20%, #fff0f5 0, transparent 30%),
+    radial-gradient(circle at 80% 80%, #f3f0ff 0, transparent 30%),
+    #fff;
+}
+
+.hero-content {
+  width: 100%;
+}
+
+.hero-label {
+  display: inline-block;
+  padding: 6px 18px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: clamp(36px, 7vw, 70px);
+  line-height: 1.25;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+.hero h1 span {
+  color: #e88da8;
+}
+
+.hero-text {
+  font-size: 17px;
+  color: #666;
+  margin-bottom: 35px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 40px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.button-primary {
+  background: #222;
+  color: white;
+}
+
+.button-line {
+  background: #06c755;
+  color: white;
+}
+
+/* セクション */
+section {
+  padding: 90px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title small {
+  color: #e88da8;
+  letter-spacing: 2px;
+}
+
+.section-title h2 {
+  font-size: 34px;
+  margin-top: 5px;
+}
+
+/* 特徴 */
+.features {
+  background: #fafafa;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.feature {
+  background: white;
+  padding: 35px 25px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #eee;
+}
+
+.feature-number {
+  font-size: 14px;
+  color: #e88da8;
+  letter-spacing: 2px;
+}
+
+.feature h3 {
+  font-size: 21px;
+  margin: 15px 0;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* 給料 */
+.income {
+  text-align: center;
+}
+
+.income-box {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 45px 25px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #fff7fa, #faf8ff);
+  border: 1px solid #f0e5e9;
+}
+
+.income-label {
+  color: #777;
+}
+
+.income-number {
+  font-size: clamp(45px, 9vw, 80px);
+  font-weight: bold;
+  color: #e88da8;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+.income-number small {
+  font-size: 25px;
+}
+
+.income-note {
+  font-size: 14px;
+  color: #777;
+}
+
+/* 働き方 */
+.work {
+  background: #fafafa;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.work-card {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  border: 1px solid #eee;
+}
+
+.work-card h3 {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+/* 安心 */
+.safe-box {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  padding: 35px;
+}
+
+.safe-box h3 {
+  margin-bottom: 15px;
+}
+
+.safe-box ul {
+  padding-left: 20px;
+}
+
+.safe-box li {
+  margin: 8px 0;
+}
+
+/* 応募 */
+.apply {
+  background: #222;
+  color: white;
+  text-align: center;
+}
+
+.apply .section-title small {
+  color: #ffb5c9;
+}
+
+.apply-text {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.apply-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.apply .button-primary {
+  background: white;
+  color: #222;
+}
+
+.apply .button-line {
+  background: #06c755;
+  color: white;
+}
+
+/* フッター */
+footer {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  background: #111;
+}
+
+/* スマホ */
+@media (max-width: 700px) {
+
+  .header-inner {
+    height: 60px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .header-button {
+    font-size: 12px;
+    padding: 7px 13px;
+  }
+
+  .hero {
+    min-height: 600px;
+  }
+
+  .hero h1 {
+    letter-spacing: 1px;
+  }
+
+  .hero-text {
+    font-size: 15px;
+  }
+
+  section {
+    padding: 65px 0;
+  }
+
+  .section-title h2 {
+    font-size: 28px;
+  }
+
+  .feature-grid,
+  .work-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .income-box {
+    padding: 35px 20px;
+  }
+
+  .safe-box {
+    padding: 25px 20px;
+  }
+
+  .button {
+    width: 90%;
+    max-width: 330px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="logo">
+      好きカノ
+      <span>FUKUOKA CAST RECRUIT</span>
+    </div>
+
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSdgD5BBAwZDxlZ2nV03pAOCSeYi8zTFX5MujjMOJwWpsoi0Aw/viewform"
+      class="header-button"
+      target="_blank"
+    >
+      応募する
+    </a>
+  </div>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="container hero-content">
+
+    <div class="hero-label">
+      福岡・キャスト募集中
+    </div>
+
+    <h1>
+      好きな時間に、<br>
+      <span>自分らしく働く。</span>
+    </h1>
+
+    <p class="hero-text">
+      未経験からでも始められる<br>
+      レンタル彼女キャストのお仕事
+    </p>
+
+    <div class="hero-buttons">
+
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdgD5BBAwZDxlZ2nV03pAOCSeYi8zTFX5MujjMOJwWpsoi0Aw/viewform"
+        class="button button-primary"
+        target="_blank"
+      >
+        応募フォームへ進む
+      </a>
+
+      <a
+        href="https://line.me/ti/p/i9hVwu46xr"
+        class="button button-line"
+        target="_blank"
+      >
+        LINEで話を聞く
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="features">
+
+  <div class="container">
+
+    <div class="section-title">
+      <small>WHY SUKIKANO</small>
+      <h2>好きカノの特徴</h2>
+    </div>
+
+    <div class="feature-grid">
+
+      <div class="feature">
+        <div class="feature-number">01</div>
+        <h3>高収入を目指せる</h3>
+        <p>
+          時給2,000円以上。<br>
+          頑張りに応じてしっかり稼げる環境を目指しています。
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-number">02</div>
+        <h3>好きな時間に働ける</h3>
+        <p>
+          自分の予定に合わせて、<br>
+          無理のない働き方を相談できます。
+        </p>
+      </div>
+
+      <div class="feature">
+        <div class="feature-number">03</div>
+        <h3>未経験でも安心</h3>
+        <p>
+          初めての方にも仕事内容やルールを<br>
+          事前に分かりやすく説明します。
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="income">
+
+  <div class="container">
+
+    <div class="section-title">
+      <small>INCOME</small>
+      <h2>報酬について</h2>
+    </div>
+
+    <div class="income-box">
+
+      <div class="income-label">
+        基本時給
+      </div>
+
+      <div class="income-number">
+        2,000<small>円〜</small>
+      </div>
+
+      <p class="income-note">
+        ※報酬の詳細・条件については応募時にご説明します。
+      </p>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="work">
+
+  <div class="container">
+
+    <div class="section-title">
+      <small>WORK STYLE</small>
+      <h2>自由な働き方</h2>
+    </div>
+
+    <div class="work-grid">
+
+      <div class="work-card">
+        <h3>🕐 好きな時間に</h3>
+        <p>
+          学校や仕事、プライベートとの予定に合わせて
+          働き方を相談できます。
+        </p>
+      </div>
+
+      <div class="work-card">
+        <h3>🌷 未経験OK</h3>
+        <p>
+          初めての方でも、仕事内容や活動の流れを
+          事前に説明します。
+        </p>
+      </div>
+
+      <div class="work-card">
+        <h3>💬 まずは相談だけでもOK</h3>
+        <p>
+          いきなり応募する必要はありません。
+          気になることがあればお気軽にご相談ください。
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section>
+
+  <div class="container">
+
+    <div class="section-title">
+      <small>SAFETY</small>
+      <h2>安心して始めるために</h2>
+    </div>
+
+    <div class="safe-box">
+
+      <h3>仕事内容・条件を事前に確認できます</h3>
+
+      <ul>
+        <li>仕事内容や活動の流れを事前に説明</li>
+        <li>報酬やルールについて事前に確認</li>
+        <li>分からないことは応募前に質問OK</li>
+        <li>違法行為や犯罪への加担を求める仕事ではありません</li>
+      </ul>
+
+      <p style="margin-top:20px;font-size:13px;color:#777;">
+        ※実際の仕事内容・報酬・ルールについては、
+        必ず事前にご確認ください。
+      </p>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="apply">
+
+  <div class="container">
+
+    <div class="section-title">
+      <small>APPLICATION</small>
+      <h2>まずは気軽にご相談ください</h2>
+    </div>
+
+    <p class="apply-text">
+      「どんな仕事なの？」<br>
+      「未経験でも大丈夫？」<br>
+      そんな質問だけでも大歓迎です。
+    </p>
+
+    <div class="apply-buttons">
+
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdgD5BBAwZDxlZ2nV03pAOCSeYi8zTFX5MujjMOJwWpsoi0Aw/viewform"
+        class="button button-primary"
+        target="_blank"
+      >
+        Googleフォームで応募
+      </a>
+
+      <a
+        href="https://line.me/ti/p/i9hVwu46xr"
+        class="button button-line"
+        target="_blank"
+      >
+        LINEで相談する
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  © 好きカノ FUKUOKA
+</footer>
+
+</body>
+</html>
